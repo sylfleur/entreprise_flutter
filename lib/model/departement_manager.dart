@@ -1,6 +1,7 @@
 class DepartementManager {
-  final DateTime _dateEmbauche;
-  final DateTime _dateDepart;
+  late final DateTime _dateEmbauche;
+  late final DateTime _dateDepart;
 
-  DepartementManager(this._dateEmbauche, this._dateDepart);
+  DepartementManager.builder(this._dateEmbauche, this._dateDepart);
+  DepartementManager.notInitialize();
 }

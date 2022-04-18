@@ -1,7 +1,8 @@
 class Salaire {
-  int salary;
-  DateTime fromDate;
-  DateTime toDate;
+  late int _salary;
+  late DateTime _fromDate;
+  late DateTime _toDate;
 
-  Salaire(this.salary, this.fromDate, this.toDate);
+  Salaire.builder(this._salary, this._fromDate, this._toDate);
+  Salaire.notInitialize();
 }
